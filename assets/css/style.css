@@ -1,6 +1,6 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 /* Header */
@@ -39,7 +39,7 @@ header a{
 }
 
 h1{
-    font-family: "Inria Sans", sans-serif;
+    font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -91,7 +91,7 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 42px;
+    margin-top: 47px;
 }
 
 /* Footer */
